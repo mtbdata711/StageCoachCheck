@@ -1,0 +1,53 @@
+.center {
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: auto;
+  display: block;
+  padding-top: 3em;
+
+}
+.center-block-but {
+  margin: auto;
+  display: block;
+}
+
+.center-block {
+  margin: auto;
+  display: block;
+}
+
+.displayTT {
+  margin: auto;
+  display: block;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+p {
+  text-align: center;
+}
+
+.ourDestinationsButton{
+  background-color: white;
+  border: none;
+  margin: auto;
+  display: block;
+}
+
+ul{
+  text-align: center;
+}
+
+li{
+  text-align: center;
+  font-size: 0.875em;
+}
+
+body{
+  font-family: 'Oranienbaum';
+}
