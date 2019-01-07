@@ -13,7 +13,7 @@ var destinationsButton = document.getElementById('destinationsButton');
 destinationsButton.addEventListener('click', ourDestinations);
 function getJSON(){
 	var getInput = input.value
-	var url = "http://mtbdata7slash11.pythonanywhere.com/api/v1/resources/coaches?name=" + input.value
+	var url = "https://mtbdata7slash11.pythonanywhere.com/api/v1/resources/coaches?name=" + input.value
 	console.log(url);
 	var getData = new XMLHttpRequest();
 	getData.open('GET', url);
@@ -87,7 +87,7 @@ function ourDestinations(){
 
 function destinationsData(){
 	var message = '<ul>';
-	var url = "http://mtbdata7slash11.pythonanywhere.com/api/v1/resources/coaches/all";
+	var url = "https://mtbdata7slash11.pythonanywhere.com/api/v1/resources/coaches/all";
 	var getData = new XMLHttpRequest();
 	getData.open('GET', url);
 	getData.onload = function getJSONData(){
